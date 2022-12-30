@@ -1,0 +1,395 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif !important;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 30px 0px;
+}
+.header .navbar-brand{
+    margin-left: 90px;
+}
+.header .navbar-expand-lg .navbar-collapse {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    background: #fff;
+    text-transform: uppercase;
+    margin-right: 48px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    color: #293779;
+    margin-right: 10px;
+    transition: 1s;
+    letter-spacing: 1px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #f0532a;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+   color: rgb(239, 239, 92); 
+}
+.slider{
+    width: 100%;
+    padding: 30px 0px;
+    background: url("../images/banner-bg.png") center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.slider .inner-slider h1{
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 87px 0px 0px 0px;
+}
+.slider .arrow{
+    width: 100%;
+}
+.slider .arrow .fa{
+    font-size: 30px;
+    color: #fff;
+    padding: 123px 49.5px 0px 0px;
+}
+.about-us{
+    width: 100%;
+    padding: 80PX 0px 95px 0px;
+}
+.about-us .title{
+    width: 100%;
+    padding: 38px 147px 0px;
+}
+.about-us .title.h2{
+    font-size: 27px;
+    line-height: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #28377e;
+    margin: 0px;
+}
+.about-us p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a9b5f0;
+    padding: 10px 122px 4px 145px;
+}
+.Feature{
+    width: 100%;
+    padding:53px 0px;
+    background: url("../images/card-bg.png") center top no-repeat;
+    background-size: cover;  
+}
+.Feature .title-card{
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+}
+.Feature .title-card h2{
+    font-size: 27px;
+    line-height: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #28377e;
+    margin: 0px;
+}
+.Feature .inner-feature{
+    padding: 60px 24px 59px 51px;
+    width: 92%;
+}
+.Feature .card{
+    width: 100%;
+    border-radius: 0px;
+}
+.Feature .card .card-heading{
+    width: 100%;
+    text-align: center;
+    transform: translate(0%,50%);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+.Feature .card .long-arrow{
+    width: 100%;
+}
+.Feature .card .long-arrow img{
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+    transform: translate(50%, 50%);
+}
+.our-attorney{
+    width: 100%;
+    padding: 130px 40px 120px 0px;
+    background:url("../images/ashenabg.png") center top no-repeat !important;
+    background-size: cover!important;
+}
+.our-attorney .attorney{
+    width: 100%;
+    padding: 150px 0px 40px 130px;
+}
+.our-attorney .attorney img{
+    width: 37px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+.our-attorney .attorney h3{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fff;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 600;
+}
+.our-attorney .attorney p{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a0a5ce;
+    margin-top: 13px;
+    margin-bottom: 35px;
+}
+.our-attorney .attorney .see-more-button{
+    margin: 0px -12px;
+}
+.our-attorney .attorney .see-more-button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f2622c;
+}
+.our-attorney .attorney .see-more-button a:hover{
+    color: #fff;
+}
+.our-attorney .attorney .see-more-button a:focus{
+    color: #000;
+}
+.our-attorney .inner-attorney{
+    width: 87%;
+    padding-left: 100px;
+}
+.our-attorney .inner-attorney .card{
+    margin: 10px 0px 10px -5px;
+}
+.our-attorney .inner-attorney .card .card-heading{
+
+}
+.our-attorney .inner-attorney .card .card-heading h3{
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 308px 0px 0px 24px;
+}
+.the-languages{
+    width: 100%;
+    padding: 80px 175px;
+    background: #fff;
+}
+.the-languages .language-heading{
+    text-align: center;
+    margin: 0px 0px 60px 0px;
+}
+.the-languages .language-heading img{
+    width: 42px;
+}
+.the-languages .language-heading h3{
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #464d88;
+    letter-spacing: 1px;
+}
+.the-languages .info{
+    width: 95%;
+    padding-left: 13px;
+    padding-right: 18px;
+}
+.the-languages .info h4{
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #28377e;
+}
+.the-languages .info p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #8c8686;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.the-languages .info-button a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f2622c;
+    margin: 3px 0px 0px 0px;
+    letter-spacing: 1px;
+}
+.the-languages .info-button a:hover{
+    color: rgb(235, 24, 24);
+}
+.the-languages .info-button a:focus{
+    color: #000;
+}
+/* the language end */
+
+/* contact-us start */
+.contact-us{
+    width: 100%;
+    padding: 50px 0px 38px 0px;
+    background: #28377e;
+}
+.contact-us .contact-heading{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.contact-us .contact-heading img{
+    width: 50px;
+    margin-left: 6px;
+}
+
+.contact-us .contact-heading h3{
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 0px 15px 0px;
+}
+.contact-us .contact-form{
+    width: 100%;
+    padding: 0px 0px;
+}
+.contact-us .contact-form .form-control{
+    width: 100%;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 0px;
+    border-bottom: 1px solid#fff;
+    border-radius: 0px;
+    background: #28377e;
+    padding: 10px 0px;
+}
+.contact-form .form-control:focus{
+    box-shadow: none;
+    color: #fff;
+    font-weight: 400;
+}
+.contact-us .contact-form input::placeholder{
+    color: #fff;
+}
+.contact-us .contact-form textarea::placeholder{
+    color: #fff;
+}
+
+.contact-us .contact-button{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0px;
+}
+.contact-button .btn-primary{
+    margin-top: 5px;
+    padding: 7px 62px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #f2622c;
+    border: 1px solid #f2622c;
+    border-radius: 0px;
+}
+.contact-button .btn-primary:hover{
+    color: rgb(218, 14, 14);
+    background: transparent;
+    border: 1p solid#fff;
+}
+.contact-button .btn-primary:focus{
+    color: rgb(12, 1, 1);
+    background: red;
+    border: 1p solidrgb(250, 6, 6);
+}
+
+/* contact end */
+
+/* footer start */
+.footer{
+    width: 100%;
+    padding: 28px 0px;
+    background: #0c1234;
+
+}
+.footer .copywright{
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+.footer .copywright p{
+    color: #a5b0f1;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.footer .copywright p a{
+    text-decoration: none;
+    color: #94a2f3;
+    font-size: 15px;
+    list-style: 26px;
+    font-weight: 500;
+}
+.footer .copywright p a:hover{
+    color:#f0532a;
+}
+.footer .copywright p a:focus{
+    color: #f4c870;
+}
+.footer .social-media{
+    font-size: 22px;
+    margin-top: 8px;
+    margin-right: 110px;
+}
+.footer .social-media .social-icons{
+    width: 100%;
+    list-style: none;
+    text-align: right;
+}
+.footer .social-media .social-icons li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer .social-media .social-icons li a{
+
+}
+
+
